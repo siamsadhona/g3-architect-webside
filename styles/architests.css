@@ -122,8 +122,24 @@
 }
 
 
+/*  section-style */
+ .section-title{
+  font-weight: bold ;
+  font-size: 2.8rem;
+  margin: 1px;
+ }
 
-
+.some-facts{
+  width: 38%;
+}
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 7.76rem;
+}
+.fact{
+  text-align: center;
+}
 /*                               media                      */
 
 @media screen and (max-width:576px) {
