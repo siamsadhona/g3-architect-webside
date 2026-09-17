@@ -118,7 +118,7 @@
   font-size: 2.8rem;
  }
 .our-features{
-  max-width: 576px;
+  max-width: 500px;
 }
 
 
@@ -140,6 +140,29 @@
   }
   .img-2{
     width: 100%;
+  }
+  .our-features{
+    margin-left: 20px;
+  }
+  .feature-title{
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .img-2{
+    width: 100%;
+  }
+  .our-features{
+    margin-left: 2px;
+  }
+  .our-features{
+  max-width: 500px;
+}
+.feature-title{
+    margin-top: 0px;
   }
 }
 
